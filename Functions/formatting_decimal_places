@@ -1,3 +1,0 @@
-def two_decimal_places(n):
-    number = float(f"{n:.2f}")
-    return number
