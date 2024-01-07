@@ -1,0 +1,11 @@
+def solution(string):
+    list_of_symbols = []
+    # Creating a list with all elements
+    for i in string:
+        list_of_symbols += i
+    
+    # 
+    reversed_string = ''
+    for s in range(len(string)-1, -1, -1):
+        reversed_string += list_of_symbols[s]
+    return reversed_string
